@@ -1,0 +1,2 @@
+C:/Users/chede appliances/project_1/android/app/.cxx/Debug/4w3g121r/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/chede appliances/project_1/android/app/.cxx/Debug/4w3g121r/armeabi-v7a/CMakeFiles/rebuild_cache.dir

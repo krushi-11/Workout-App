@@ -1,0 +1,31 @@
+buildscript {
+    repositories {
+        google()  // Ensure this is included
+        mavenCentral()  // Ensure this is included
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2' // Make sure this is correct
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.21"  // Update Kotlin plugin if necessary
+    }
+}
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+        kotlinOptions.jvmTarget = "1.8"
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,2 @@
+C:/Users/chede appliances/project_1/android/app/.cxx/Debug/6a2e3c2m/x86/CMakeFiles/edit_cache.dir
+C:/Users/chede appliances/project_1/android/app/.cxx/Debug/6a2e3c2m/x86/CMakeFiles/rebuild_cache.dir
