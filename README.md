@@ -1,4 +1,4 @@
-# Workout App
+# Workout Tracker
 
 A mobile application that makes recording workouts easy while offering the ability to download workout plans and collaborate with others.
 
